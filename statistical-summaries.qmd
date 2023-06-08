@@ -413,7 +413,7 @@ So far we've considered two classes of geoms:
 
 -   Simple geoms where there's a one-on-one correspondence between rows in the data frame and physical elements of the geom
 
--   Statistical geoms where introduce a layer of statistical summaries in between the raw data and the result
+-   Statistical geoms will(?) introduce a layer of statistical summaries in between the raw data and the result
 
 Now we'll consider cases where a visualisation of a three dimensional surface is required.
 The ggplot2 package does not support true 3d surfaces, but it does support many common tools for summarising 3d surfaces in 2d: contours, coloured tiles and bubble plots.
